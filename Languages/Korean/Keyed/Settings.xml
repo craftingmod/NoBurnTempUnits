@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <noburntempunits_title>불에 타지 않는 온도 조절기</noburntempunits_title>
+  <noburntempunits_settings_insectsluge>곤충 진흙이 불에 타지 않음</noburntempunits_settings_insectsluge>
+  <noburntempunits_settings_insectsluge_desc>곤충 진흙을 온도 킬존에서 사용하고 싶으시면 활성화 해주세요.</noburntempunits_settings_insectsluge_desc>
+  <noburntempunits_require_restart>게임 재시작시 적용됩니다.</noburntempunits_require_restart>
+</LanguageData>

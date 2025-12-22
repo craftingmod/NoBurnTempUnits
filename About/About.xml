@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>No Burn Vent</name>
+  <packageId>alyac.rimworld.noburntempunits</packageId>
+  <modVersion>1.0.0.16</modVersion>
+  <description>
+    Makes Vents, Coolers, Heaters non-flammable.
+    Why aren't there fireproof Vents, Coolers, Heaters in Vanilla?
+    This mod also includes an optional setting to make Insect Sludge non-flammable, specifically for those using it in Heat Killboxes.
+
+    환풍구와 냉방기를 불에 타지 않게 해줍니다.
+    왜 바닐라에는 불에 안 타는 환풍구와 냉방기가 없을까요?
+    선택 사항으로, 온도 킬존에서 활용되는 '곤충 진흙'이 불에 타지 않도록 설정할 수 있는 옵션이 포함되어 있습니다.
+  </description>
+  <author>alyac</author>
+  <url>https://github.com/craftingmod/NoBurnTempUnits</url>
+  <supportedVersions>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>imranfish.xmlextensions</packageId>
+      <displayName>XML Extensions</displayName>
+      <downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>imranfish.xmlextensions</li>
+  </loadAfter>
+</ModMetaData>

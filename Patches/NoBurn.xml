@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Vent patch -->
+  <Operation Class="XmlExtensions.PatchOperationSafeReplace">
+    <xpath>Defs/ThingDef[defName="Vent" or defName="Cooler" or defName="Heater"]/statBases/Flammability</xpath>
+    <value>0.0</value>
+  </Operation>
+  <!-- Insect Sludge patch -->
+  <Operation Class="XmlExtensions.OptionalPatch">
+    <modId>alyac.rimworld.noburntempunits</modId>
+    <key>patch_insectsludge</key>
+    <defaultValue>false</defaultValue>
+    <caseTrue>
+      <Operation Class="XmlExtensions.PatchOperationSafeReplace">
+        <xpath>Defs/TerrainDef[defName="InsectSludge"]/statBases/Flammability</xpath>
+        <value>0.0</value>
+      </Operation>
+    </caseTrue>
+  </Operation>
+</Patch>

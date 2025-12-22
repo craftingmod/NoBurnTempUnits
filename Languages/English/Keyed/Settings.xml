@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <noburntempunits_title>No Burn Vent</noburntempunits_title>
+  <noburntempunits_settings_insectsluge>Make Insect Sludge non-flammable</noburntempunits_settings_insectsluge>
+  <noburntempunits_settings_insectsluge_desc>Enable if you want to use insect sludge in heat killboxes!</noburntempunits_settings_insectsluge_desc>
+  <noburntempunits_require_restart>Restart game to apply changes.</noburntempunits_require_restart>
+</LanguageData>

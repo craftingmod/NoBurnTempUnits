@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <XmlExtensions.SettingsMenuDef>
+    <modId>alyac.rimworld.noburntempunits</modId>
+    <label>No Burn Vent</label>
+    <tKey>noburntempunits_title</tKey>
+    <settings>
+      <li Class="XmlExtensions.Setting.Checkbox">
+        <key>patch_insectsludge</key>
+        <label>Patch Insect Sludge</label>
+        <defaultValue>false</defaultValue>
+        <tKey>noburntempunits_settings_insectsluge</tKey>
+        <tooltip>Untranslated tooltip</tooltip>
+        <tKeyTip>noburntempunits_settings_insectsluge_desc</tKeyTip>
+      </li>
+      <li Class="XmlExtensions.Setting.Text">
+        <text>Restart game to apply changes.</text>
+        <tKey>noburntempunits_require_restart</tKey>
+      </li>
+    </settings>
+  </XmlExtensions.SettingsMenuDef>
+</Defs>
