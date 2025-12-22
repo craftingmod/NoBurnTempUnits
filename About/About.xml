@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>No Burn Vent</name>
+  <name>No Burn Temp Units</name>
   <packageId>alyac.rimworld.noburntempunits</packageId>
-  <modVersion>1.0.0.16</modVersion>
+  <modVersion>1.0.1.16</modVersion>
   <description>
     Makes Vents, Coolers, Heaters non-flammable.
     Why aren't there fireproof Vents, Coolers, Heaters in Vanilla?
